@@ -6,7 +6,7 @@ from langchain_groq import ChatGroq
 
 
 #load the environment variable
-load_dotenv(".env")
+load_dotenv()
 
 #streamlit page setup
 st.set_page_config(
